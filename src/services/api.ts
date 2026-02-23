@@ -1,6 +1,6 @@
 import type { Movie } from "../Pages/Home";
 
-const API_KEY = "716df6182b1577e864baffebdda8829c";
+const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 interface TMDBResponse {
