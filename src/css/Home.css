@@ -42,7 +42,6 @@
   background-color: #f40612;
 }
 
-
 @media (max-width: 639px) {
   .home {
     padding: 1rem 0;
@@ -55,9 +54,9 @@
 
 .movies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
   box-sizing: border-box;
 }
